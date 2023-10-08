@@ -1,0 +1,368 @@
+.checkout-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.checkout-container .content {
+  width: 70%;
+  background: white;
+  height: calc(100vh - 110px);
+  display: flex;
+}
+
+.content .delivery {
+  border: 1px solid #bfbcbd;
+  border-radius: 12px;
+  height: 11rem;
+  padding: 24px;
+  margin: 8px 0;
+}
+
+.content .payment {
+  border: 1px solid #bfbcbd;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 8px 0;
+  height: 12rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .delivery p,
+.content .payment p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 7px;
+}
+
+.content .delivery .mobile {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 14px 7px 0 7px;
+}
+
+.content .payment .credit-label {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 14px 7px 0 7px;
+}
+
+.content .payment .credit {
+  margin: 14px;
+  background-color: #f5fbfd;
+  border: 1px solid #cedde4;
+  width: 100%;
+  flex-grow: 2;
+  min-height: 210px;
+  display: flex;
+}
+
+.content .credit .col-10 {
+  width: 8%;
+  padding: 29px 0 0 10px;
+}
+
+.content .credit .col-90 {
+  width: 92%;
+  display: flex;
+  position: relative;
+}
+
+.col-90 .logo {
+  width: 60px;
+  top: 29px;
+  height: 20px;
+  position: relative;
+}
+
+.col-90 .credit-card-container {
+  width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0 0 20px;
+}
+
+.col-90 .cardname {
+  position: relative;
+  margin-top: 20px;
+  color: #757272;
+}
+
+.col-90 .edit {
+  display: flex;
+  position: relative;
+  margin-top: 12px;
+}
+
+.col-90 .edit a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1460c8;
+}
+
+.col-90 .security-code-label {
+  margin-top: 20px;
+}
+
+.col-90 .edit .separator {
+  margin: 0 10px;
+}
+
+.col-90 .cardinfo {
+  position: relative;
+  top: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.content .credit img {
+  width: 49px;
+  height: 20px;
+  margin: 2px 0;
+}
+
+.col-90 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+}
+
+.row.row.description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.row.description p {
+  margin: 14px 7px 0 7px;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.col-60 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: calc(100% - 40px);
+}
+
+.col-40 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: calc(100% - 40px);
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  border: 1.5px solid #f0f0f0;
+  content: "";
+  display: inline-block;
+  margin: 0 16px 0 0;
+  padding: 0;
+  vertical-align: top;
+  border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {
+  background: #1460c8;
+  border: 1.5px solid #1460c8;
+  box-shadow: inset 0px 0px 0px 1px #fff;
+  color: #333;
+  content: "";
+  text-align: center;
+  border-radius: 50%;
+}
+
+input[type="checkbox"]:focus {
+  outline: 0;
+}
+
+.col-90 .security-code-container {
+  position: relative;
+  margin-top: 4px;
+  height: 44px;
+  border: 1px solid #9b9090;
+  width: 124px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.col-90 .creditcard-icon,
+.col-90 .security-code-desc {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+}
+
+.blue {
+  color: #1460c8;
+}
+
+.m-10 {
+  margin: 0 10px;
+}
+
+.m-20 {
+  margin: 0 20px;
+}
+
+.col-90 .security-code-container .security-code-placeholder {
+  height: 29px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.row .add-new-card-container {
+  margin: 10px 0 7px 28px;
+  display: flex;
+  align-items: center;
+}
+
+.row .add-new-card-container a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1460c8;
+}
+
+.row .digit-wallet-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 18px;
+  text-align: left;
+}
+
+.row .digit-wallet-container h3 {
+  margin: 7px 0;
+}
+
+.row .digit-wallet-container p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.row .digit-wallet-container .line {
+  margin: 14px 0;
+  border: 1px solid #f1f1f2;
+}
+
+.content .summary {
+  border: 1px solid #bfbcbd;
+  border-radius: 12px;
+  height: 100%;
+  padding: 24px;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.summary .row {
+  min-height: 40px;
+  padding: 4px 10px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.summary .col {
+  position: relative;
+  width: 50%;
+}
+
+.summary .col-100 {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+
+.summary .align-right {
+  text-align: right;
+}
+
+.summary .row p {
+  margin: 0;
+}
+
+.p-x-4 {
+  padding: 0 4px;
+}
+
+.b-500 {
+  font-weight: 500;
+}
+
+.summary .row .large {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.summary .row .medium {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+
+.summary .cancel-order {
+  position: relative;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.summary .cancel-order a {
+  font-size: 24px;
+  color: #1460c8;
+  font-weight: 500;
+}
+
+.summary .height-10 {
+  min-height: 20px;
+}
+
+.row .agreement {
+  display: flex;
+}
+
+.row.grow {
+  flex-grow: 1;
+  position: relative;
+  justify-content: center;
+}
+
+.summary .place-order {
+  position: absolute;
+  bottom: -40px;
+  height: 40px;
+  width: 100%;
+  padding: 40px;
+}
+
+.summary .place-order button {
+  width: 60%;
+  background-color: green;
+  border-color: green;
+}

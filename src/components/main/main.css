@@ -1,0 +1,11 @@
+.main-container {
+	width: 100%;
+	display: flex;
+	font-family: "Tahoma, sans-serif";
+	background: #d83565;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	justify-content: center;
+	height: 70px;
+}
