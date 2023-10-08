@@ -2,6 +2,9 @@
 
 This project is a demo for ticketing system using ReactJS, Redux and functional component.
 
+![image](https://github.com/jshen9/ticket-system/assets/17530833/b9b0474c-1f87-4d6b-a59c-71cd3967d06b)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
